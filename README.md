@@ -1,11 +1,11 @@
 # S&P 500 Correlation Network Visualization
 
-This project visualizes the correlation network of S&P 500 and Nasdaq 100 stocks using historical market data. It downloads historical prices, computes daily returns, and derives a correlation matrix from which a network graph is built. Nodes in the graph represent individual stocks, and edges exist between stocks whose correlations meet a specified threshold. The project also features basic network analysis such as degree centrality and community detection.
+This project visualizes the correlation network of S&P 500 and Nasdaq 100 stocks using historical market data. It downloads historical prices, computes daily returns, and derives a correlation matrix from which a network graph is built. Nodes in the graph represent individual stocks, and edges exist between stocks whose correlations meet a specified threshold. The project also features basic network analysis such as degree centrality and community detection. The scripts automatically adjust to the current day, and example outputs for 4/16 are included in the repo. 
 
 ## Overview
 
 - **Data Acquisition:**  
-  Uses [yfinance](https://pypi.org/project/yfinance/) to pull historical adjusted close data for companies in the S&P 500, fetched directly from Wikipedia.
+  Uses [yfinance](https://pypi.org/project/yfinance/) to pull historical adjusted close data for companies in the S&P 500, with the tickers being fetched directly from Wikipedia.
 
 - **Parallel Processing:**  
   Implements multiprocessing for faster data retrieval.
