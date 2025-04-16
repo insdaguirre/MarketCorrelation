@@ -2,6 +2,10 @@
 
 This project visualizes the correlation network of S&P 500 and Nasdaq 100 stocks using historical market data. It downloads historical prices, computes daily returns, and derives a correlation matrix from which a network graph is built. Nodes in the graph represent individual stocks, and edges exist between stocks whose correlations meet a specified threshold. The project also features basic network analysis such as degree centrality and community detection. The scripts automatically adjust to the current day, and example outputs for 4/16 are included in the repo. 
 
+[Nasdaq 100 Sample Output for 4/16/25](nasdaq100_4_16_graph.png)
+
+[S&P 500 Sample Output for 4/16/25](sp500_4_16_graph.png)
+
 ## Overview
 
 - **Data Acquisition:**  
